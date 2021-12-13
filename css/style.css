@@ -1,0 +1,209 @@
+
+body{
+  margin: 0;
+  background-color: #B983FF;
+  font-family: sans-serif;
+  font-wesight: 310;
+  
+
+  
+
+
+
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+ header nav{
+  background: #94B3FD;
+  width: 100%;
+  float: left;
+  }
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+
+}
+
+  
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+.bold{
+  font-weight: bold;
+      text-transform: uppercase;
+}
+nav a{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+
+
+}
+nav a:hover{
+  color: #000;
+}
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+nav a:hover::before{
+  width: 100%;
+}
+.headers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#myimage{
+   border-radius: 80%;
+    display: block;
+  margin-left: 13%;
+  margin-right: auto;
+  padding-right: 13%;
+  float: right;
+}
+.left{
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+}
+.right{
+  float: right;
+  width: 50%;
+  padding-top: 100px;
+}
+.right h1{
+ margin-top: 30px;
+  margin-bottom: 0;
+    font-size: 6em;
+
+
+}
+.right h2{
+
+ margin-top: 0px;
+  margin-bottom: 10px;
+}
+.right h4{
+  font-size: 2emm;
+  margin: 10px 0 0;  
+}
+.right p{
+  text-align: left;
+  width: 80%;
+}
+
+.clearfix{
+  clear: :both;
+}
+
+.resume{
+      width: 100%;
+    float: left;
+}
+.resume .left{
+  text-align: center;
+}
+.resume h2{
+    display: inline-block;
+}
+.resume img{
+  width: 50px;
+  height: 50px;
+}
+.resume-content{
+  float: left;
+  width: 100%;
+}
+
+hr{
+    width: calc(100% - 10rem);
+    margin: auto;
+    
+    display: block;
+}
+.project{
+  width: 100%;
+  margin: 50px auto;
+  display: block;
+  float: left;
+
+}
+.project-content{
+  margin: auto;
+  width: 80%;
+}
+.project h1{
+  font-weight: 800;
+  text-align: left;
+}
+.project .right{
+  text-align: center;
+}
+.right img{
+  float: left;
+}
+.cantact{
+  width: 100%;
+  margin: 50px auto;
+  display: block;
+  float: left;
+
+}
+.contact-content{
+   margin: auto;
+  width: 80%;
+}
+.About{
+
+    width: 100%;
+    float: left;
+}
+
+.about-content {
+    float: left;
+    width: 80%;
+}
+ .project img{
+  padding-bottom: 130px;
+  float: none;
+}
+input{
+  width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+   width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+  margin-bottom: 100px;
+}
